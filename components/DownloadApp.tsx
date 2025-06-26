@@ -1,5 +1,5 @@
-'use client';
-import Image from 'next/image';
+"use client";
+import Image from "next/image";
 
 export default function DownloadApp() {
   return (
@@ -13,13 +13,27 @@ export default function DownloadApp() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
           <div className="text-center lg:text-left space-y-6 max-w-lg">
             <p className="text-xl text-gray-800 font-medium">
-              Get <span className="font-bold text-yellow-500">30% off</span> for first transaction using <br />
-              <span className="text-black font-bold">Rondovision mobile app</span> for now.
+              Get <span className="font-bold text-yellow-500">30% off</span> for
+              first transaction using <br />
+              <span className="text-black font-bold">
+                Rondovision mobile app
+              </span>{" "}
+              for now.
             </p>
 
             <div className="flex justify-center lg:justify-start gap-4">
-              <Image src="/Rectangle 55.png" alt="App Store" width={150} height={50} />
-              <Image src="/Rectangle 18.png" alt="Google Play" width={150} height={50} />
+              <Image
+                src="/Rectangle 55.png"
+                alt="App Store"
+                width={150}
+                height={50}
+              />
+              <Image
+                src="/Rectangle 18.png"
+                alt="Google Play"
+                width={150}
+                height={50}
+              />
             </div>
           </div>
 

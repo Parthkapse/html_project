@@ -1,6 +1,6 @@
-'use client';
-import Image from 'next/image';
-import Link from 'next/link';
+"use client";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -15,10 +15,19 @@ export default function Navbar() {
         />
       </Link>
       <div className="flex space-x-6 text-gray-600">
-        <Link href="#" className="hover:text-black">CATALOGUE</Link>
-        <Link href="#" className="hover:text-black">FAVOURITE</Link>
-        <Link href="#" className="hover:text-black">LIFESTYLE</Link>
-        <Link href="/signup" className="text-white bg-black px-4 py-1 rounded-md font-semibold">
+        <Link href="#" className="hover:text-black">
+          CATALOGUE
+        </Link>
+        <Link href="#" className="hover:text-black">
+          FAVOURITE
+        </Link>
+        <Link href="#" className="hover:text-black">
+          LIFESTYLE
+        </Link>
+        <Link
+          href="/signup"
+          className="text-white bg-black px-4 py-1 rounded-md font-semibold"
+        >
           SIGN UP
         </Link>
       </div>

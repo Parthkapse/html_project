@@ -1,15 +1,22 @@
-'use client';
-import Image from 'next/image';
-import Link from 'next/link';
+"use client";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
     <div className="flex flex-1 w-full max-w-6xl bg-gray-100 rounded-3xl shadow-lg overflow-hidden mx-auto mt-8">
       <div className="max-w-lg space-y-6 p-8">
         <h1 className="text-7xl font-black leading-tight text-gray-900 tracking-tight">
-          <span className="bg-white px-4 py-2 rounded-md shadow-md inline-block">LET&apos;S SEE</span><br />
-          EXPLORE<br />
-          <span className="bg-yellow-300 px-4 py-2 rounded-md shadow-md inline-block">UNIQUE</span><br />
+          <span className="bg-white px-4 py-2 rounded-md shadow-md inline-block">
+            LET'S SEE
+          </span>
+          <br />
+          EXPLORE
+          <br />
+          <span className="bg-yellow-300 px-4 py-2 rounded-md shadow-md inline-block">
+            UNIQUE
+          </span>
+          <br />
           CLOTHES.
         </h1>
         <p className="text-gray-800 text-xl font-semibold tracking-wide">

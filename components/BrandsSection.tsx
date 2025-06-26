@@ -1,5 +1,5 @@
-'use client';
-import Image from 'next/image';
+"use client";
+import Image from "next/image";
 
 export default function BrandsSection() {
   return (
@@ -18,7 +18,7 @@ export default function BrandsSection() {
           width={1578}
           height={40}
           className="object-contain"
-         />
+        />
       </div>
     </div>
   );

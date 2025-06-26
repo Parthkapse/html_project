@@ -1,6 +1,6 @@
-'use client';
-import Image from 'next/image';
-import Link from 'next/link';
+"use client";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function NewArrivals() {
   return (
@@ -9,7 +9,6 @@ export default function NewArrivals() {
         New Arrivals
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-
         {/* Card 1: Hoodies & Sweatshirt */}
         <Link href="/products/hoodies" className="group">
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:scale-105 transition-transform duration-300 cursor-pointer mx-auto max-w-[350px]">
@@ -66,7 +65,6 @@ export default function NewArrivals() {
             </div>
           </div>
         </Link>
-
       </div>
     </div>
   );
