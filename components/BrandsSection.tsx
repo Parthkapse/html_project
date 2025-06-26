@@ -18,7 +18,7 @@ export default function BrandsSection() {
           width={1578}
           height={40}
           className="object-contain"
-        />
+         />
       </div>
     </div>
   );
